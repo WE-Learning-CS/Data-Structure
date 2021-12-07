@@ -8,7 +8,7 @@ def seq_search(a: Sequence, key: Any) -> int:
     while True:
         
         if a[i] == key:
-            return i if i != len(a) else -1
+            return i if i != len(a) - 1 else -1
         i += 1
 
 a = [i for i in range(1000000)]
