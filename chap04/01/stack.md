@@ -33,3 +33,7 @@ len()
 알고리즘 문제를 풀기위해서는 클래스를 만들어서 사용하기에는 시간도 많이 걸리므로 그저 구조를 파악하기 위해서 만들어 보는것을 추천한다.
 
 ![image](https://user-images.githubusercontent.com/78721108/144974604-160b4875-be63-45fd-a991-8701324f26c8.png)
+
+
+### 덱
+![image](https://user-images.githubusercontent.com/78721108/144980675-ade72d46-7e86-4528-b8a9-cf026ac13447.png)
