@@ -117,9 +117,9 @@ def search(self, key: Any) -> Any:
 3. 2번 과정으로 되돌아간다.
 
 ```python
-def add(self, key: Any, value: Any) -> Any:
+def add(self, key: Any, value: Any) -> bool:
         '''키가 key이고 값이 value인 노드를 삽입'''
-        def add_node(node: Node, key: Any, value: Any) -> Any:
+        def add_node(node: Node, key: Any, value: Any) -> None:
             '''node를 루트로 하는 서브트리에 키가 key이고 값이 value인 노드를 삽입'''
             if key == node.key:
                 return False        # key가 이진 검색 트리에 이미 존재
@@ -136,6 +136,13 @@ def add(self, key: Any, value: Any) -> Any:
                 else:
                     add_node(node.right, key, value)
             return True
+
+        if self.root is None:
+            self.root = Node(key, value, None, None)
+            return True
+
+        else:
+            return add_node(self.root, key, value)
 ```
 
 ![Crocus](https://t1.daumcdn.net/cfile/tistory/255DB73A57F5EF4C15)
