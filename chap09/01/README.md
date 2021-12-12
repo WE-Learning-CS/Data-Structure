@@ -72,12 +72,12 @@
 
 ### 순서 트리의 검색
 
-1) 너비 우선 검색(breadth-first-search, BFS)  
+1) 너비 우선 검색(breadth-first-search, BFS)<br>
 ![](https://images.velog.io/images/maxkmh/post/6495a84a-ec2c-4bbe-bb21-ed89b21fbbab/image.png)  
 - 폭 우선 검색, 가로 검색, 수평 검색
 - 낮은 레벨부터 왼쪽에서 오른쪽으로 검색 후 다음 레벨로 가는 방법
 
-2) 깊이 우선 검색 (depth-first-search, DFS)  
+2) 깊이 우선 검색 (depth-first-search, DFS)<br>
 ![](https://images.velog.io/images/maxkmh/post/8c9b4e22-95f6-4526-8c9a-fc93ed5f2fc7/image.png)
 - 세로 검색, 수직 검색
 
