@@ -1,3 +1,69 @@
+# 이진 트리
+
+![img](https://miro.medium.com/max/1400/1*abunFFnReygaqVt93xNr2A.png)
+
+
+
+노드가 `왼쪽 자식`과 `오른쪽 자식`만을 갖는 트리를 이진트리라고 한다.
+이때 두 자식 가운데 하나 또는 둘 다 존재하지 않는 노드가 있어도 상관 없다.
+
+### 이진 트리의 특징
+
+- 왼쪽 자식과 오른쪽 자식을 구분한다.
+- 노드는 최대 두개의 하위 노드(자식)을 가질 수 있다.
+- 왼쪽 자식 노드는 부모 노드보다 값이 적어야 한다.
+- 오른쪽 자식 노드는 부모 노드보다 값이 커야한다.
+
+### 이진 트리의 시간 복잡도
+
+이진트리는 일반적으로 빠른 검색을 위해서 사용된다. 
+정렬이 된 array가 `O(N)`인 반면 이진 트리는 `O(log n)`이다.
+
+
+
+## 완전 이진 트리
+
+![Sideways traversal of a Complete Binary Tree - GeeksforGeeks](https://media.geeksforgeeks.org/wp-content/uploads/20200218123136/Side-Ways-Traversal-Input.png)
+
+출처 : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fsideways-traversal-of-a-complete-binary-tree%2F&psig=AOvVaw2N98jwXHjMMX1KOQfXp-f1&ust=1639311918888000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCKDrgfze2_QCFQAAAAAdAAAAABAM
+
+루트부터 아래쪽 레벨로 노드가 가득 차 있고, 같은 레벨 안에서 왼쪽부터 오른쪽으로 노드가 채워져 있는 이진 트리를 완전 이진 트리(complete binary tree)라고 한다.
+
+높이가 k인 완전 이진 트리가 가질 수 있는 노드의 수는 최대 `2^k+1 - 1`개 이므로 n개의 노드를 저장할 수 있는 완전 이진 트리의 높이는 `log n`이다.
+
+### 완전 이진 트리의 노드를 채우는 법
+
+- 마지막 레벨을 제외하고 모든 레벨에 노드가 가득 차 있다.
+- 마지막 레벨에 한해서 왼쪽부터 오른쪽으로 노드를 채우되, 반드시 끝까지 채우지 않아도 된다.
+
+## 균형 검색 트리
+
+
+
+![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c3461a0-00b0-43a2-8437-630fdcc4bdfd%2FTime-Complexity-of-Binary-Search-Tree-Worst-Case.png?table=block&id=09e18f9b-4ecc-4ed9-84ec-235435412870&spaceId=4b97eaca-7938-4c43-b27c-a0c55795a841&width=800&userId=9d75a55a-6e05-4e9f-8a9f-16cf4817ef81&cache=v2)
+
+이진 검색트리는 위 사진 처럼키의 오름차순으로 노드가 삽입되면 트리의 높이가 깊어지는 단점이 있다.(데이터가 이미 정렬되어 있는 경우)
+이럴 경우 선형 리스트 처럼 되어 빠른 검색을 할 수 없어 시간 복잡도가 `O(n)`이 나올 수 있다. 
+
+이를 방지하고자 높이를 `O(log n)`으로 제한하여 고안된 검색 트리를 균형 검색 트리라고 하고 다음과 같은 종류가 있다.
+
+- AVL 트리(AVL tree)
+- 레드 - 블랙 트리 (red-black tree) 
+
+### 레드 - 블랙 트리(RBtree)
+
+![img](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc3abb5ed-074c-4fce-963a-57d0b280cc12%2FRed-black_tree_example.svg.png?table=block&id=6dbf83a4-bde9-4e04-8526-213a200b9824&spaceId=4b97eaca-7938-4c43-b27c-a0c55795a841&userId=9d75a55a-6e05-4e9f-8a9f-16cf4817ef81&cache=v2)
+
+레드 - 블랙 트리는 항상 다음 규칙을 준수해야 한다.
+
+1. 모든 노드는 `레드` 이거나 `블랙` 이어야 한다.
+2. 루트 노드는 항상 `블랙`이어야 한다.
+3. 리프 노드도 항상 `블랙`이어야 한다.
+4. `레드` 노드는 연달아 나올 수 없다.
+   1. `레드` 노드의 부모는 항상 `블랙` 노드여야하고, 자식 노드들도 `블랙` 노드여야 한다.
+      1. `블랙` 노드의 자식은 `블랙`일 수 있다.
+5. 루트 노드와 모든 리프 노드 사이에 존재하는 `블랙` 노드의 수는 모두 동일하다.
+
 # 이진 검색 트리
 
 ![img](https://miro.medium.com/max/1400/1*jBgV9A847f_pHMbO67tcgw.png)
