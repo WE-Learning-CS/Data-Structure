@@ -43,3 +43,7 @@
 - 임의의 노드에 바로 접근할 수가 없음
 - 다음 노드의 위치를 저장할 추가 공간이 필요함
 - 연결 리스트를 거꾸로 탐색하기가 어려움
+
+자료 출처
+- https://daimhada.tistory.com/72
+- https://velog.io/@woga1999/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%EA%B5%A[…]EB%8A%94-%EB%A7%81%ED%81%AC%EB%93%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8
