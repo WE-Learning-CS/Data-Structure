@@ -19,7 +19,14 @@
 - [chap04 | 스택과 큐](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap04)
   - [01. Stack](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap04/01)
   - [02. Queue](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap04/02)
-
+- [chap08 | list](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap08)
+  - [01. 연결리스트](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap08/01#readme)
+  - [02. 포인터를 이용한 연결 리스트](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap08/02#readme)
+  - [03. 커서를 이용한 연결 리스트](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap08/03#readme)
+  - [04. 원형 이중 연결 리스트](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap08/04#readme)
+- [chap09 | Tree](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap09)
+  - [01. 트리 구조](https://github.com/WE-Learning-CS/Data-Structure/blob/main/chap09/01/README.md)
+  - [02. 이진트리와 이진 검색 트리](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap09/02#readme)
 ****
 
 > 참고
