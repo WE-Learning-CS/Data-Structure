@@ -27,6 +27,8 @@
 - [chap09 | Tree](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap09)
   - [01. 트리 구조](https://github.com/WE-Learning-CS/Data-Structure/blob/main/chap09/01/README.md)
   - [02. 이진트리와 이진 검색 트리](https://github.com/WE-Learning-CS/Data-Structure/tree/main/chap09/02#readme)
+- [heap](https://github.com/WE-Learning-CS/Data-Structure/tree/main/heap#readme)
+- [map](https://github.com/WE-Learning-CS/Data-Structure/tree/main/map#readme)
 ****
 
 > 참고
