@@ -39,7 +39,7 @@ def bfs_solution(numbers, target):
     
     return answer
 
-
+#깊이우선탐색
 def DFS(numbers, target, depth):
     answer = 0
     if depth == len(numbers):
@@ -54,4 +54,5 @@ def dfs_solution(numbers, target):
     answer = DFS(numbers, target, 0)
     return answer
 
+#모든 경우의 수에서 재귀를 쓰는 것  같다.
 print(bfs_solution([1,1,1,1,1], 3))
