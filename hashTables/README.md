@@ -15,8 +15,8 @@ Go에서는 map 기타등등
 예를 들어 레스토랑의 메뉴를 배열에 저장한다면?
 ```javascript
 menu = [
-	{ name: "coffee",price: 10},
-	{ name: "burger",price: 15},
+		{ name: "coffee",price: 10},
+		{ name: "burger",price: 15},
     	{ name: "tea",price: 15}
     ]
 ```
@@ -27,10 +27,10 @@ menu = [
 ```javascript
 
 menu = 	{ 
-	coffee : 10,
-	burger : 15,
-    	tea : 15
-    ]
+	coffe	: 10,
+	burger	: 15,
+    	tea	: 15
+}
 
 ```
 이 경우 tea를 알고 싶으면 tea = key가 될것이고 hash tables는 가격을 Value로 제공한다.
